@@ -5,8 +5,7 @@ import FeaturedSection from '@/components/sections/FeaturedSection';
 import InterestSection from '@/components/sections/InterestSection';
 import IntroductionSection from '@/components/sections/IntroductionSection';
 import ValueSection from '@/components/sections/ValueSection';
-import CurrentSection from '@/components/sections/currentSection';
-import useNavStore from '@/lib/zustand/useNavStore';
+import CurrentSection from '@/components/sections/CurrentSection';
 
 export default function Home() {
 
