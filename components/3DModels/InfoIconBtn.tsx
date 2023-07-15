@@ -22,7 +22,7 @@ export default function InfoIconBtn(props: any) {
     });
 
     return (
-        <group position={[0, -3.8, 0]} dispose={null}>
+        <group onPointerDown={props.onPointerDown} position={[0, -3.8, 0]} dispose={null}>
             <group
                 position={position}
                 rotation={rotation}

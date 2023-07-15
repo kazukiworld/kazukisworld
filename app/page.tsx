@@ -6,6 +6,7 @@ import InterestSection from '@/components/sections/InterestSection';
 import IntroductionSection from '@/components/sections/IntroductionSection';
 import ValueSection from '@/components/sections/ValueSection';
 import CurrentSection from '@/components/sections/CurrentSection';
+import InfoModal from '@/components/modal/InfoModal';
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <FeaturedSection />
       <InterestSection />
       <ValueSection />
+      <InfoModal/>
     </main>
   )
 }

@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei'
 import Room from '../3DModels/Room';
 import ButtonViewer from './SectionViewer';
-import InfoIconViewer from './InfoIconViewer';
+import InfoIconViewer from './InfoViewer';
 
 export default function ModelViewer() {
     return (

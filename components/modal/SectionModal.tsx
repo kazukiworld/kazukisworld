@@ -11,7 +11,7 @@ export default function SectionModal(props: any) {
             <div className='relative w-full h-full bg-white rounded overflow-hidden'>
                 <nav className='z-20 w-full h-16 p-4 bg-rose-600 rounded-t flex justify-between items-center'>
                     <div className='w-8' />
-                    <h1 className='text-center text-white font-bold lg:text-lg rounded-t'>{title}</h1>
+                    <h1 className='text-center text-white font-bold lg:text-lg'>{title}</h1>
                     <ExitIcon className="w-8 h-8 fill-white" onClick={() => setCurrentSection(null)} />
                 </nav>
                 <div className='overflow-auto h-full p-4 lg:p-8'>
