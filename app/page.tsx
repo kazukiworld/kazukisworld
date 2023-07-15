@@ -1,10 +1,23 @@
 'use client'
 
-import ModelViewer from '@/components/ModelViewer'
+import ModelViewer from '@/components/3DViewers/ModelViewer';
+import FeaturedSection from '@/components/sections/FeaturedSection';
+import InterestSection from '@/components/sections/InterestSection';
+import IntroductionSection from '@/components/sections/IntroductionSection';
+import ValueSection from '@/components/sections/ValueSection';
+import CurrentSection from '@/components/sections/currentSection';
+import useNavStore from '@/lib/zustand/useNavStore';
+
 export default function Home() {
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <ModelViewer />
+      <IntroductionSection />
+      <CurrentSection />
+      <FeaturedSection />
+      <InterestSection />
+      <ValueSection />
     </main>
   )
 }

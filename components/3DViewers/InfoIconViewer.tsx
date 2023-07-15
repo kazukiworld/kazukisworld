@@ -1,5 +1,5 @@
 import React from 'react'
-import InfoIconBtn from './models/InfoIconBtn';
+import InfoIconBtn from '../3DModels/InfoIconBtn';
 
 export default function InfoIconViewer() {
     return (

@@ -18,7 +18,7 @@ export default function IntroductionBtn(props: any) {
     });
 
     return (
-        <group {...props} position={[0, -3.8, 0]} dispose={null} onPointerDown={() => console.log("hi")}>
+        <group {...props} position={[0, -3.8, 0]} dispose={null}>
             <group ref={groupRef}>
                 <mesh
                     castShadow

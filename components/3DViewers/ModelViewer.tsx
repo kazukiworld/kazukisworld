@@ -1,13 +1,13 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei'
-import Room from './models/Room';
-import ButtonViewer from './ButtonViewer';
+import Room from '../3DModels/Room';
+import ButtonViewer from './SectionViewer';
 import InfoIconViewer from './InfoIconViewer';
 
 export default function ModelViewer() {
     return (
-        <div className='fixed inset-0 z-10 w-screen h-screen'>
+        <div className='fixed inset-0 z-0 w-screen h-screen'>
             <Canvas camera={{ position: [0, 0, -5], fov: 55, zoom: 1.3 }}>
                 <Suspense fallback={null}>
                     {/* 3D Room model and functions */}
