@@ -42,14 +42,14 @@ const buttonData = [
 ];
 
 export default function InfoIconViewer() {
-    const { setCurrentInfo } = useNavStore();
+    const { setCurrentInfo, setOpenModal} = useNavStore();
 
     return (
         <group>
             {buttonData.map((button, index) => (
                 <InfoIconBtn
                     key={index}
-                    onPointerDown={() => setCurrentInfo(button.info)}
+                    onPointerDown={() => {setCurrentInfo(button.info); setOpenModal(true)}}
                     position={button.position}
                     rotation={button.rotation}
                     scale={button.scale}

@@ -2,8 +2,8 @@ import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei'
 import Room from '../3DModels/Room';
-import ButtonViewer from './SectionViewer';
 import InfoIconViewer from './InfoViewer';
+import LoadingScreen from '../LoadingScreen';
 
 export default function ModelViewer() {
     return (
@@ -13,7 +13,7 @@ export default function ModelViewer() {
                     {/* 3D Room model and functions */}
                     <Room />
                     {/* 3D Button models and functions */}
-                    <ButtonViewer />
+                    {/* <ButtonViewer /> */}
                     {/* 3D Info Icon models and functions */}
                     <InfoIconViewer />
                     {/* Canvas setting */}
